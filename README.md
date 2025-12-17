@@ -1,9 +1,7 @@
 # VGG-style CNN
 
 The proposed model is a deep convolutional neural network (CNN) designed for image classification on the CIFAR-10 dataset. It follows a VGG-style architecture, characterized by the use of stacked small (3×3) convolutional kernels, progressive channel expansion, and spatial downsampling via max-pooling.
-
-Overall architecture: VGG-style Convolutional Neural Network with an MLP classification head
-Input: 32×32 RGB images (3 channels)
+  
 
 Convolutional feature extractor (CNN backbone):
 •8 convolutional layers
@@ -33,3 +31,10 @@ Model characteristics:
 •Feed-forward, sequential architecture
 •No residual or skip connections
 •Designed for small-scale image classification tasks (e.g., CIFAR-10)
+
+<img src="images/vgg_image.png" alt= "VGG image" width="500">
+
+
+Repository content:
+
+The repo features both the full final code for training/testing the model as well as code for testing my pretrained model. The pretrained model is also featured achieving a 90+% accuracy   
